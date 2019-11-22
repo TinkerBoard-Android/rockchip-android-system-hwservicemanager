@@ -1,5 +1,6 @@
 service hwservicemanager /system/bin/hwservicemanager
     user system
+    priority -20
     disabled
     group system readproc
     critical
